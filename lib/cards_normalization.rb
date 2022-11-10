@@ -7,7 +7,7 @@ class CardsNormalization < Normalization
     @array.map { |item| item % 4 }
   end
 
-  def preapre_figures
+  def prepare_figures
     @array.map { |item| item / 4 }
   end
 end

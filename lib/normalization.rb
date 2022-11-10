@@ -5,7 +5,7 @@ class Normalization
 
   def initialize(array)
     @array = array.sort
-    @figures = preapre_figures
+    @figures = prepare_figures
     @colors = prepare_colors
     @figures_frequency = prepare_figures_frequency.values
   end
@@ -16,7 +16,7 @@ class Normalization
     @array
   end
 
-  def preapre_figures
+  def prepare_figures
     @array
   end
 
